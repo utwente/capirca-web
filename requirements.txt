@@ -1,2 +1,2 @@
 dnspython==1.12.0
-git+git://github.com/cvanniekerk/capirca.git#egg=capirca
+git+git://github.com/google/capirca.git#egg=capirca
