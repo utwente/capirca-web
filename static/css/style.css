@@ -1,0 +1,117 @@
+/**
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+@font-face {
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 400;
+ src: local('Open Sans'), local('OpenSans'), url(opensans.woff) format('woff');
+}
+html {
+ background: #ddd;
+}
+body {
+ margin: 20px auto;
+ padding: 0;
+ border: 2px solid #999;
+ max-width: 950px;
+ background: #fff;
+ font-family: 'Open Sans', sans-serif;
+}
+h1 {
+ margin: 0;
+ padding: 30px;
+ font-size: 2em;
+ text-align: center;
+ letter-spacing: 0.2em;
+ color: white;
+ background: linear-gradient(to top, #4E9FDE 0%, #346D99 100%);
+}
+#selection {
+ margin: 50px 50px 0 50px;
+}
+table {
+ margin: 0 auto;
+ border-collapse: separate;
+ border-spacing: 20px 0;
+ width: 100%;
+}
+th {
+ padding: 10px;
+ border: 2px solid #CBDCF2;
+ border-bottom: none;
+ font-weight: normal;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+ background: #DCE7F5;
+}
+td {
+ padding: 20px 0;
+ border: 2px solid #CBDCF2;
+ border-top: none;
+ font-size: 14px;
+ vertical-align: top;
+ width: 50%;
+}
+td td {
+ padding: 5px 0;
+ border: none;
+ width: auto;
+}
+#result {
+ margin: 50px 100px;
+}
+#result table {
+ text-align: center;
+ background: #eee;
+}
+#result caption {
+ padding: 5px;
+ font-size: 20px;
+ font-weight: bold;
+ letter-spacing: 0.2em;
+ background: linear-gradient(to top, #4E9FDE 0%, #346D99 100%);
+ color: white;
+}
+#result td {
+ padding: 0;
+ border: none;
+ width: 33%;
+ font-size: 20px;
+ vertical-align: middle;
+}
+#result .port {
+ color: #B85C00;
+}
+#result td.accept {
+ color: green;
+ font-size: 70px;
+}
+#result td.deny {
+ color: red;
+ font-size: 70px;
+}
+#result td .hostname {
+ display: block;
+ font-size: 15px;
+}
+#result pre {
+ margin: 30px 70px;
+}
+#result .error {
+ padding: 20px;
+ border: 1px solid red;
+ background: #FFF5F5;
+}
