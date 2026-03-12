@@ -1,3 +1,6 @@
+## ⚠️ Archived Repository
+*This project is no longer maintained. The repository has been archived and is kept here for historical and reference purposes only.*
+
 Capirca policy checker web interface
 ====================================
 
